@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>NFT preview card component</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- card section -->
+      <section class="card">
+        <!-- card image and overlay -->
+        <div class="image">
+          <div class="card-img">
+            <img src="./images/image-equilibrium.jpg" alt="" class="card-img" />
+          </div>
+          <div class="img-overlay">
+            <img src="./images/icon-view.svg" alt="" />
+          </div>
+        </div>
+
+        <!-- card text -->
+        <section class="card-text">
+          <h3 class="card-num">Equilibrium #3429</h3>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+
+          <!-- eth and time left -->
+          <section class="eth-time">
+            <div class="eth">
+              <img
+                src="./images/icon-ethereum.svg"
+                alt="eth"
+                class="eth-time-img"
+              />
+              <h4 class="eth-value">0.041ETH</h4>
+            </div>
+
+            <div class="time">
+              <img
+                src="./images/icon-clock.svg"
+                alt="clock"
+                class="eth-time-img"
+              />
+              <h4 class="time-left">3 days left</h4>
+            </div>
+          </section>
+        </section>
+
+        <section class="profile">
+          <div class="profile-info">
+            <img src="./images/image-avatar.png" alt="" />
+            <p>
+              <span class="light">Creation of</span>
+              <span class="bright">Jules Wyvern</span>
+            </p>
+          </div>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>
